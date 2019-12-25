@@ -20,6 +20,6 @@ WLAsyncOperation *op = [WLAsyncOperation  asyncOperationWithBlock:^(WLAsyncOpera
 } inMainQueue:YES];
 
 self.operation = op;
-[[WLOperationQueue queueForID:@"Alerts"] addOperationToDefaultQueue:op];
+[[WLOperationQueue queueForID:@"NetReq"] addOperationToDefaultQueue:op];
 
 ```
